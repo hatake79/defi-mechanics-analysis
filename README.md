@@ -50,3 +50,117 @@ This repository covers multiple layers of the DeFi stack.
 ---
 
 # Repository Structure
+
+---
+
+# Topics Covered
+
+This repository studies multiple dimensions of DeFi systems.
+
+## Automated Market Makers
+
+Research includes:
+
+- constant product market makers
+- concentrated liquidity models
+- capital efficiency
+- impermanent loss dynamics
+
+---
+
+## Lending Protocols
+
+Topics analyzed:
+
+- collateralized borrowing systems
+- interest rate models
+- liquidation mechanisms
+- bad debt risk scenarios
+
+---
+
+## MEV and Blockspace Economics
+
+This repository studies how value is extracted from transaction ordering.
+
+Topics include:
+
+- arbitrage strategies
+- sandwich attacks
+- liquidation MEV
+- block builder markets
+
+---
+
+## DeFi Market Structure
+
+Modern DeFi trading infrastructure introduces new market designs.
+
+These include:
+
+- intent-based trading
+- solver networks
+- batch auctions
+- order flow auctions
+
+---
+
+## Ethereum Infrastructure
+
+Advanced research topics include:
+
+- proposer-builder separation
+- rollup sequencer design
+- shared sequencing layers
+- restaking economics
+
+---
+
+# Case Studies
+
+The repository includes analyses of major DeFi failures and exploits.
+
+Examples include:
+
+- Terra ecosystem collapse
+- Mango Markets exploit
+- Curve pool vulnerability
+- systemic risk in crypto markets
+
+These case studies highlight important lessons for protocol design and risk management.
+
+---
+
+# Research Philosophy
+
+The goal of this repository is to understand DeFi systems from first principles.
+
+Each research note attempts to analyze:
+
+protocol architecture  
+economic incentives  
+market behavior  
+systemic risks  
+
+Understanding these mechanisms is critical for building resilient decentralized financial infrastructure.
+
+---
+
+# References
+
+Research is based on multiple sources including:
+
+- protocol documentation
+- academic research papers
+- DeFi whitepapers
+- on-chain data analysis
+
+See the `resources` folder for curated references.
+
+---
+
+# Disclaimer
+
+This repository is intended for educational and research purposes only.
+
+It does not constitute financial advice.
