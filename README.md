@@ -1,116 +1,52 @@
 # DeFi Mechanism Lab
 
-A deep research repository exploring the economic and technical mechanisms behind decentralized finance.
+A research repository exploring the fundamental mechanisms behind decentralized finance.
 
-This repository documents and analyzes how core DeFi primitives function, including automated market makers, lending markets, MEV extraction, tokenomics, and systemic risk.
+This repository analyzes the architecture, economic models, and market structure that power modern DeFi protocols.
 
-The goal is to understand how these systems behave under real market conditions and where vulnerabilities may emerge.
+The goal is to break down how decentralized financial systems work at a technical and economic level.
 
 ---
 
 # Research Areas
 
-## AMM (Automated Market Makers)
+This repository covers multiple layers of the DeFi stack.
 
-AMMs power decentralized exchanges by replacing order books with liquidity pools and algorithmic pricing models.
+## Core DeFi Mechanisms
 
-Topics covered:
-
-- AMM fundamentals
-- Constant product formula
-- Concentrated liquidity
-- Impermanent loss
-- Advanced AMM designs
-
-Folder: `/amm`
-
----
-
-## Lending Markets
-
-Lending protocols enable permissionless borrowing using over-collateralized loans.
-
-Topics covered:
-
-- Lending pool architecture
-- Interest rate models
-- Collateral management
+- Automated Market Makers (AMM)
+- Lending and borrowing systems
 - Liquidation engines
-- Bad debt scenarios
-
-Folder: `/lending`
-
----
-
-## MEV (Maximal Extractable Value)
-
-MEV describes profit opportunities created by transaction ordering.
-
-Topics covered:
-
-- Sandwich attacks
-- Arbitrage bots
-- Liquidation racing
-- MEV supply chain
-
-Folder: `/mev`
-
----
+- Interest rate models
 
 ## Market Structure
 
-DeFi trading infrastructure is evolving to improve execution efficiency.
-
-Topics covered:
-
 - Liquidity fragmentation
 - Order flow auctions
-- Batch auctions
 - Intent-based trading
+- Batch auction execution models
 
-Folder: `/market-structure`
+## MEV and Blockspace Markets
 
----
+- MEV extraction strategies
+- MEV supply chain
+- Proposer-Builder Separation
+- MEV-Boost architecture
 
 ## Tokenomics
 
-Token incentive structures play a critical role in protocol sustainability.
-
-Topics covered:
-
-- Liquidity mining
-- Mercenary capital
+- Liquidity mining incentives
 - Protocol-owned liquidity
-- veToken governance
+- veToken governance models
+- capital efficiency in DeFi
 
-Folder: `/tokenomics`
+## Risk and Security
 
----
-
-## Risk Analysis
-
-Understanding systemic risks is critical for designing resilient protocols.
-
-Topics covered:
-
-- Oracle manipulation
-- Flash loan attacks
-- Cascading liquidations
-- Stablecoin depegs
-
-Folder: `/risk`
+- oracle manipulation attacks
+- flash loan exploits
+- cascading liquidations
+- stablecoin depeg scenarios
 
 ---
 
-# Future Work
-
-- cross-chain liquidity
-- rollup MEV
-- shared sequencers
-- intent-based architectures
-
----
-
-# Author
-
-Independent DeFi researcher studying the mechanics of on-chain financial systems.
+# Repository Structure
